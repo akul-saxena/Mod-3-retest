@@ -1,0 +1,25 @@
+uuid: eac60ec5-1888-4730-8861-bd80856dff14
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.category
+  module:
+    - system
+  theme:
+    - bootstrap5
+id: bootstrap5_category
+theme: bootstrap5
+region: nav_additional
+weight: -5
+provider: null
+plugin: 'system_menu_block:category'
+settings:
+  id: 'system_menu_block:category'
+  label: Category
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

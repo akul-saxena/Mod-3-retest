@@ -1,0 +1,50 @@
+uuid: f64d19b1-04d2-4e91-96a9-ba3ee30229ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.news.field_banner_image
+    - field.field.node.news.field_body
+    - field.field.node.news.field_category
+    - field.field.node.news.field_summary
+    - field.field.node.news.field_thumbnail_image
+    - image.style.banner
+    - node.type.news
+  module:
+    - image
+    - user
+id: node.news.default
+targetEntityType: node
+bundle: news
+mode: default
+content:
+  field_banner_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: banner
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_body:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_summary: true
+  field_thumbnail_image: true
+  links: true

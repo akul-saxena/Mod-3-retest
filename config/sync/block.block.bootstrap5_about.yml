@@ -1,0 +1,25 @@
+uuid: b7102076-a4b7-45d7-a2b8-869c1aab4b9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.about
+  module:
+    - system
+  theme:
+    - bootstrap5
+id: bootstrap5_about
+theme: bootstrap5
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:about'
+settings:
+  id: 'system_menu_block:about'
+  label: About
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

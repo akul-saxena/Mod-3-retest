@@ -1,0 +1,24 @@
+uuid: 8cbb54f2-303d-4763-97a6-21c215e345bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.categories
+  module:
+    - views
+  theme:
+    - bootstrap5
+id: bootstrap5_views_block__categories_block_1
+theme: bootstrap5
+region: footer
+weight: -6
+provider: null
+plugin: 'views_block:categories-block_1'
+settings:
+  id: 'views_block:categories-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }
