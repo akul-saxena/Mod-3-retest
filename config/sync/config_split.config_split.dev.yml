@@ -1,0 +1,18 @@
+uuid: ca71ad3d-f8bd-45fa-8b7e-242e038f1da4
+langcode: en
+status: false
+dependencies: {  }
+id: dev
+label: Dev
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: collection
+folder: ''
+module:
+  webform_ui: 0
+theme: {  }
+complete_list:
+  - system.site
+partial_list: {  }
