@@ -1,0 +1,26 @@
+uuid: 863e7680-b468-4c3e-980d-9e42f3c3a544
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact
+  module:
+    - webform
+  theme:
+    - bootstrap5
+id: bootstrap5_webform
+theme: bootstrap5
+region: footer
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Contact Us'
+  label_display: visible
+  provider: webform
+  webform_id: contact
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility: {  }
