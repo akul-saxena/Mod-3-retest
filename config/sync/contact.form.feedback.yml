@@ -1,0 +1,14 @@
+uuid: 70ddeea8-d12e-4e4a-adfa-8279ef5257ce
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - akul.saxenaa@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
